@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(32, 93, 125);
+}
+
+p {
+    width: 600px;
+}
+
+header {
+    background-image: url(../img/bc882c4a00eb417c655026731ae35255.jpg);
+    height: 700px;
+    background-position: center center;
+}
+
+header > div > img {
+    padding-top: 31px;
+}
+
+.home {  /*div envolta dos links no nav*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    padding-left: 45px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    transition: 0.5s;
+    font-size: 19px;
+    
+
+}
+
+.botao {
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.774);
+    width: 232px;
+    height: 47px;
+    padding-top: 20px;
+    margin-top: 280px;
+    margin-left: 30px;
+    background-color: rgb(32, 139, 197);
+    align-items: center;
+
+}
+
+article {
+    background-color: white;
+    padding-top: 55px;
+    padding-left: 40px;
+    display: flex;
+    height: 490;
+}
+
+.pessoa {    /*chistian*/
+    width: 320px;
+    padding-left: 358px;
+    padding-bottom: 40px;
+}
+
+nav > a:hover {  /*animação nos links*/
+    color: rgb(32, 139, 197);
+    text-decoration: underline;
+}
+
+
