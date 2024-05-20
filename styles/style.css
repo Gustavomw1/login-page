@@ -1,0 +1,43 @@
+      /*GERAIS  */
+body{
+    background-color: #222222;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+      /*HEADER  */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+      /*MAIN  */
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+img{
+    width: 350px;
+}
